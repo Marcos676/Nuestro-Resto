@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-attachment: fixed; /* para que la imagen de fondo quede fija cuando scroleo */
+    font-size: 16px;
+}
+
+.formulario {
+    width: 600px;
+    margin-top: 60px;
+    border: rgba(228, 123, 37, 0.616) 1px solid;
+    padding: 20px;
+}
+
+.cajaForm {
+    margin: 20px 0;
+}
+textarea{
+    resize: none;
+    width: 100%;
+}
+
+h4{
+    margin: 20px 0;
+}
+
+button.enviar{
+    background-color: #F0C223;
+    color: white;
+    width: 250px;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+}
+button.reset{
+    background-color: white;
+    color: #F0C223;
+    width: 250px;
+    padding: 10px;
+    border: 1px #F0C223 solid;
+    border-radius: 8px;
+}
+
+input{
+    margin-right: 5px;
+}
+
+label:hover{
+    color: blue;
+}

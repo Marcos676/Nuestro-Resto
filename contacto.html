@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/contacto.css">
+    <title>Contacto</title>
+</head>
+
+<body>
+    <div class="formulario">
+        <form action="index.html" method="get">
+            <div class="cajaForm">
+                <h4>¿De dónde sos?</h4>
+                <select name="país" id="" >
+                    <option value="">Seleccioná una opción</option>
+                    <option value="ar">Argentina</option>
+                    <option value="uy">Uruguay</option>
+                    <option value="br">Brasil</option>
+                </select>
+            </div>
+            <div class="cajaForm">
+                <h4>¿Qué te parecio la iluninación del ambinte?</h4>
+                <input type="radio" name="ambiente" id="ambiente1" value="3"><label for="ambiente1">Muy
+                    acorde</label><br>
+                <input type="radio" name="ambiente" id="ambiente2" value="2"><label for="ambiente2">Buena, pero puede
+                    mejorar</label><br>
+                <input type="radio" name="ambiente" id="ambiente3" value="1"><label for="ambiente3">Mala</label>
+            </div>
+            <div class="cajaForm">
+                <h4>¿Qué plato fué el que mas te gusto?</h4>
+                <input type="checkbox" name="gustos" id="gusto1" value="1">
+                <label for="gusto1">Entrada</label><br>
+
+                <input type="checkbox" name="gustos" id="gusto2" value="2">
+                <label for="ambiente2">Plato principal</label><br>
+
+                <input type="checkbox" name="gustos" id="gusto3" value="3">
+                <label for="ambiente3">Postres</label><br>
+
+                <input type="checkbox" name="gustos" id="gusto4" value="4">
+                <label for="ambiente3">Otros</label>
+            </div>
+            <div class="cajaForm">
+                <h4>¿Recomendarias el lugar?</h4>
+                <input type="radio" name="recomienta" id="si" value="si"><label for="si">Si</label><br>
+                <input type="radio" name="recomienta" id="si" value="si"><label for="no">No</label><br>
+            </div>
+            <div class="cajaForm">
+                <h4>¿Por qué?</h4>
+                <textarea name="comentario" id="comentario" cols="30" rows="10"></textarea>
+            </div>
+            <div class="cajaForm">
+                <h4>Dejanos tu contacto y nos comunicaremos con vos</h4>
+                <label for="nombre">Nombre: </label><input type="text" name="nombre" id="nombre"> <br> <br>
+                <label for="email">Email: </label><input type="email" name="email" id="email"> <br>
+            </div>
+            <div class="cajaForm">
+                <button type="submit" class="enviar">Enviar</button>
+                <button type="reset" class="reset">Resetear</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
